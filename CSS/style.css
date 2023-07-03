@@ -54,7 +54,7 @@ body {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
-    margin-left: 5%;
+    margin-left: 10%;
     /* Remove the margin-left */
     line-height: 0.2em;
 }
@@ -65,7 +65,7 @@ body {
     font-family: ShreeDev0714;
     font-weight: 900;
     text-align: center;
-    margin-left: 15%;
+    margin-left: 20%;
     margin-top: -1%;
 }
 
@@ -87,7 +87,7 @@ body {
     position: absolute;
     padding-left: 2%;
     padding-right: 2%;
-    top: 32%;
+    top: 40%;
 }
 
 /* sectio1 start   */
