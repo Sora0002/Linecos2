@@ -36,6 +36,12 @@ body {
     src: url('../FONTS/Avenir-Roman.ttf');
 }
 
+/* Define a custom font called myriadPro */
+@font-face {
+    font-family: myriadPro;
+    src: url('../fonts/MyriadPro.otf');
+  }
+
 
 /* End adding fonts */
 
@@ -102,7 +108,7 @@ body {
 .section1 p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     word-wrap: break-word;
     padding-left: 4%;
@@ -165,4 +171,149 @@ body {
 }
 /* section 3 start  */
 
+/* start flowerline */
+.flowerline{
+    left: 0;
+    margin-top: 15%;
+    height: 100px;
+    margin-bottom: 5%;
+}
+.flowerline.p2{
+    margin-top: 350%;
+    z-index: -1;
+
+}
+/* end flowerline */
+
+/* start section4 */
+.section4{
+    position: absolute;
+    margin-top: 0%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 96%;
+    padding: 0;
+    /* background-color: antiquewhite; */
+}
+.section4 > h1{
+    font-family: CehuaFree;
+    font-weight: 900;
+    background-color: #99c5ac;
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    word-wrap: break-word;
+    margin-bottom: 10%;
+}
+.section4 .pomad{
+    position: absolute;
+    top: 30%;
+    width: 65%;
+    right: 0;
+    z-index: -1;
+
+}
+/* .steps.s1{
+    z-index: 999;
+} */
+.steps.s1{
+    left: 4%;
+}
+.section4 .steps h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color:  black;
+    font-size: 70px;
+}
+.steps-text{
+    margin-left: 1%;
+}
+.steps h2{
+    font-family: avenir-roman;
+    font-weight: 900;
+    font-size: 26px;
+    text-align: start;
+}
+.steps p{
+    margin-top: 0;
+    text-align: start;
+    font-family: ShreeDev0714;
+    font-size: 20px;
+}
+.steps.s2{
+    /* margin-top: 42%; */
+    left: 4%;
+}
+.steps.s3{
+    /* margin-top: 82%; */
+    left: 4%;
+}
+.steps.s4{
+    /* margin-top: 390%; */
+    left: 4%;
+}
+/* end section4 */
+
+
+/* start section 5 */
+.steps.s5{
+    margin-top: 30%;
+}
+
+.steps.s5 h1{
+    font-family: shreeita;
+    font-weight: 100;
+    text-align: start;
+    word-wrap: break-word;
+    margin-bottom: 10%;
+    margin-top: 60%;
+    font-size: 60px ;
+}
+.steps.s5 .circle {
+    position: absolute;
+    top: 85%;
+    width: 60%;
+    left: 0;
+    z-index: -1;
+
+}
+.steps.s5 .gel {
+    position: absolute;
+    top: 80%;
+    width: 60%;
+    right: 0;
+    z-index: -1;
+
+}
+
+/* end section 5 */
+
+
 /* End body2 */
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .steps {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 7%;
+  }
+
+  .steps h1 {
+    margin-right: 10px;
+  }
+
+  .steps-text {
+    flex: 1;
+  }
+  .show{
+    background-color: white;
+  }
