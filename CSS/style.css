@@ -30,6 +30,11 @@ body {
     font-family: shreeita;
     src: url('../FONTS/Shree714.ttc');
 }
+/* Define a custom font called avenir-roman */
+@font-face {
+    font-family: avenir-roman;
+    src: url('../FONTS/Avenir-Roman.ttf');
+}
 
 
 /* End adding fonts */
@@ -122,9 +127,42 @@ body {
     font-family: shreeita;
     font-size: 68px;
     padding-left: 7%;
-    line-height: 1.3em;
+    line-height: 1.5em;
+    margin-top: 3%;
 }
 
 /* sexxtion 2 end   */
+
+/* section 3 start  */
+.section3{
+    margin-top: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section3 h1{
+    font-family: CehuaFree;
+    font-weight: 900;
+    color: #99c5ac;
+    font-size: 45px;
+    text-align: center;
+    word-wrap: break-word;
+    margin-bottom: 10%;
+}
+.section3 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: 900;
+}
+.section3 p{
+    font-family: avenir-roman;
+    font-size: 22px;
+    font-weight: 600;
+    /* line-height: 1.5em; */
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-bottom: 15%;
+}
+/* section 3 start  */
 
 /* End body2 */
