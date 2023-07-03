@@ -174,7 +174,7 @@ body {
 /* start flowerline */
 .flowerline{
     left: 0;
-    margin-top: 15%;
+    margin-top: 10%;
     height: 100px;
     margin-bottom: 5%;
 }
@@ -188,7 +188,7 @@ body {
 /* start section4 */
 .section4{
     position: absolute;
-    margin-top: 0%;
+    margin-top: 75%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -196,7 +196,7 @@ body {
     padding: 0;
     /* background-color: antiquewhite; */
 }
-.section4 > h1{
+.section4 .accordion> h1{
     font-family: CehuaFree;
     font-weight: 900;
     background-color: #99c5ac;
@@ -204,7 +204,7 @@ body {
     font-size: 45px;
     text-align: center;
     word-wrap: break-word;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
 }
 .section4 .pomad{
     position: absolute;
@@ -304,7 +304,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    margin-bottom: 7%;
+    margin-bottom: 15%;
   }
 
   .steps h1 {
