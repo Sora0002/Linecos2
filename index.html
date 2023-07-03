@@ -106,16 +106,17 @@
           ><img src="IMGS/linecos_logo.png" alt=""
         /></a>
         <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        class="navbar-toggler ms-auto"
+        id="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul
             class="navbar-nav me-auto mb-2 mb-lg-0 text-center justify-content-center w-100"
@@ -473,5 +474,45 @@
     <script src="Bootstrap-fontAw/js/all.min.js"></script>
     <script src="Bootstrap-fontAw/js/bootstrap.bundle.min.js"></script>
     <!-- <script src="js/home.js"></script> -->
+    <script>
+      var navbarToggler = document.getElementById("navbar-toggler");
+var navbarCollapse = document.getElementById("navbarSupportedContent");
+var navbar = document.querySelector(".navbar");
+var isNavbarDisplayed = false;
+var scrollvalue = window.scrollY;
+
+navbarToggler.addEventListener("click", function () {
+  isNavbarDisplayed = !isNavbarDisplayed;
+  if (isNavbarDisplayed) {
+    navbar.classList.remove("bg-transparent");
+    console.log("test")
+    navbar.classList.add("bg-white");
+    navbar.style.boxShadow = "0px 4px 4px rgba(0, 0, 0, 0.25)";
+
+  } else {
+    navbar.classList.remove("bg-white");
+    navbar.classList.add("bg-transparent");
+    changebg();
+  }
+});
+
+function changebg() {
+  if (scrollvalue < 10 && !isNavbarDisplayed) {
+    navbar.classList.remove("bg-white");
+    navbar.classList.add("bg-transparent");
+    navbar.style.boxShadow = "none";
+  } else {
+    navbar.classList.add("bg-white");
+    navbar.classList.remove("bg-transparent");
+    navbar.style.boxShadow = "0px 4px 4px rgba(0, 0, 0, 0.25)";
+  }
+}
+
+window.addEventListener("scroll", function () {
+  scrollvalue = window.scrollY;
+  changebg();
+  
+});
+    </script>
   </body>
 </html>

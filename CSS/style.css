@@ -6,6 +6,9 @@ top: 20%;
 /* .dropdown-toggle.rotate::after {
   transform: rotate(-90deg);
 } */
+nav{
+    z-index: 999;
+}
 body {
     overflow-x: hidden;
     height: 5000px;
