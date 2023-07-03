@@ -1,0 +1,136 @@
+/* .navbar-brand img{
+position: absolute;
+width: 30%;
+top: 20%;
+} */
+/* .dropdown-toggle.rotate::after {
+  transform: rotate(-90deg);
+} */
+body {
+    overflow-x: hidden;
+    height: 5000px;
+}
+
+/* Start adding fonts */
+
+/* Define a custom font called ShreeDev0714 */
+@font-face {
+    font-family: ShreeDev0714;
+    src: url('../FONTS/ShreeDev.ttf');
+}
+
+/* Define a custom font called cehuaFree */
+@font-face {
+    font-family: CehuaFree;
+    src: url('../FONTS/CehuaFree.otf');
+}
+
+/* Define a custom font called shreedevita */
+@font-face {
+    font-family: shreeita;
+    src: url('../FONTS/Shree714.ttc');
+}
+
+
+/* End adding fonts */
+
+/* Start banner */
+.banner {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    /* Add box shadow */
+}
+
+.banner-text {
+    color: white;
+    top: 78%;
+    left: 0;
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0 2%;
+    /* Add padding to create space around the text */
+}
+
+.banner-text h1 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-left: 5%;
+    /* Remove the margin-left */
+    line-height: 0.2em;
+}
+
+.banner-text h3 {
+    position: absolute;
+    font-size: 13px;
+    font-family: ShreeDev0714;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: -1%;
+}
+
+.banner-text p {
+    position: absolute;
+    font-size: 10px;
+    font-family: ShreeDev0714;
+    margin-left: 0%;
+    /* Remove the margin-left */
+    margin-top: 18%;
+}
+
+
+
+/* End banner */
+
+/* Start Body2 */
+.body2 {
+    position: absolute;
+    padding-left: 2%;
+    padding-right: 2%;
+    top: 32%;
+}
+
+/* sectio1 start   */
+.section1 h1 {
+    font-family: CehuaFree;
+    font-weight: 900;
+    color: #99c5ac;
+    font-size: 35px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.section1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    word-wrap: break-word;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 5%;
+}
+
+/* section1 end    */
+
+/* sexxtion 2 start   */
+.section2{
+    margin-top: 20% ;
+}
+.section2 img {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    z-index: 2;
+}
+.section2 h1{
+    z-index: 3;
+    font-family: shreeita;
+    font-size: 68px;
+    padding-left: 7%;
+    line-height: 1.3em;
+}
+
+/* sexxtion 2 end   */
+
+/* End body2 */
